@@ -1,0 +1,18 @@
+#pragma once
+
+#include "FormType.hpp"
+
+class Form
+{
+private:
+    FormType _formType;
+
+public:
+    Form(FormType p_formType)
+    {
+        (void)p_formType;
+        (void)_formType;
+    }
+
+    virtual void execute() = 0;
+};
