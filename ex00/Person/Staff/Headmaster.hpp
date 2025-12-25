@@ -4,6 +4,7 @@
 #include "Form.hpp"
 
 #include <vector>
+
 class Headmaster : public Staff
 {
 private:
