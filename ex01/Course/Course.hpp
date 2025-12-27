@@ -18,6 +18,7 @@ private:
     int _maximumNumberOfStudent;
 
 public:
+    Course() = default;
     Course(std::string p_name)
     {
         (void)p_name;
